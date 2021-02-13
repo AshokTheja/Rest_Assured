@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">RestAssured_Test_AllType_Requests</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,828</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RestAssured_Test_AllType_Requests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.TC_06_Delete_User</td><td><a href="#m0">delete_User</a></td><td rowspan="1">1613225226753</td><td rowspan="1">1429</td></tr><tr><th colspan="4">RestAssured_Test_AllType_Requests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.TC_01_Get_List_Users</td><td><a href="#m1">Test_ListofUsers</a></td><td rowspan="1">1613225219243</td><td rowspan="1">3086</td></tr><tr class="passedodd"><td rowspan="1">tests.TC_02_Get_Specific_Users</td><td><a href="#m2">Test_Specific_User</a></td><td rowspan="1">1613225222336</td><td rowspan="1">603</td></tr><tr class="passedeven"><td rowspan="1">tests.TC_03_Post_Create_User</td><td><a href="#m3">test_Create_User</a></td><td rowspan="1">1613225222942</td><td rowspan="1">1351</td></tr><tr class="passedodd"><td rowspan="1">tests.TC_04_Post_Validate</td><td><a href="#m4">Post_Validate</a></td><td rowspan="1">1613225224297</td><td rowspan="1">1224</td></tr><tr class="passedeven"><td rowspan="1">tests.TC_05_Put_Update</td><td><a href="#m5">Put_Update</a></td><td rowspan="1">1613225225525</td><td rowspan="1">1224</td></tr><tr class="passedodd"><td rowspan="4">tests.TC_07_Post_Data_Driven</td><td><a href="#m6">test_Data_Driven</a></td><td rowspan="4">1613225233200</td><td rowspan="4">1839</td></tr><tr class="passedodd"><td><a href="#m7">test_Data_Driven</a></td></tr><tr class="passedodd"><td><a href="#m8">test_Data_Driven</a></td></tr><tr class="passedodd"><td><a href="#m9">test_Data_Driven</a></td></tr></tbody>
+</table>
+<h2>RestAssured_Test_AllType_Requests</h2><h3 id="m0">tests.TC_06_Delete_User#delete_User</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [204]
+	at tests.TC_06_Delete_User.delete_User(TC_06_Delete_User.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TC_01_Get_List_Users#Test_ListofUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.TC_02_Get_Specific_Users#Test_Specific_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.TC_03_Post_Create_User#test_Create_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.TC_04_Post_Validate#Post_Validate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.TC_05_Put_Update#Put_Update</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.TC_07_Post_Data_Driven#test_Data_Driven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Kane</td><td>65000.0</td><td>32.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.TC_07_Post_Data_Driven#test_Data_Driven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Scotty</td><td>55000.0</td><td>31.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.TC_07_Post_Data_Driven#test_Data_Driven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Rey</td><td>35000.0</td><td>30.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.TC_07_Post_Data_Driven#test_Data_Driven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>UnderT</td><td>45000.0</td><td>31.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

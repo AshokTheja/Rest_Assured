@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="RestAssured_Test_AllType_Requests(failed)">
+    <classes>
+      <class name="tests.TC_06_Delete_User">
+        <methods>
+          <include name="delete_User"/>
+        </methods>
+      </class> <!-- tests.TC_06_Delete_User -->
+    </classes>
+  </test> <!-- RestAssured_Test_AllType_Requests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

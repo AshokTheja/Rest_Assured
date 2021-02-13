@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="RestAssured_Test_AllType_Requests">
+		<classes>
+			<class name="tests.TC_01_Get_List_Users" />
+			<class name="tests.TC_02_Get_Specific_Users" />
+			<class name="tests.TC_03_Post_Create_User" />
+			<class name="tests.TC_04_Post_Validate" />
+			<class name="tests.TC_05_Put_Update" />
+			<class name="tests.TC_06_Delete_User" />
+			<class name="tests.TC_07_Post_Data_Driven" />
+		</classes>
+	</test> <!-- RestAssured_Test_AllType_Requests -->
+</suite> <!-- Suite -->

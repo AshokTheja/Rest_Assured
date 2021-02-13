@@ -1,0 +1,7 @@
+tests\TC_05_Put_Update.class
+tests\TC_04_Post_Validate.class
+tests\TC_03_Post_Create_User.class
+tests\TC_06_Delete_User.class
+tests\TC_07_Post_Data_Driven.class
+tests\TC_02_Get_Specific_Users.class
+tests\TC_01_Get_List_Users.class
